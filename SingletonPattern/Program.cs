@@ -15,6 +15,7 @@ namespace SingletonPattern
             Console.WriteLine("单例模式：");
             TestStaticSingleton();
             TestLasyInitialSingleton();
+            TestGenericSingleton();
             TestDoubleLockSingleton();
         }
 
@@ -43,7 +44,7 @@ namespace SingletonPattern
         {
             Console.WriteLine("锁机制确保多线程只产生一个实例");
 
-            for (int i = 0; i < 8; i++)
+            for (int i = 0; i < 2; i++)
             {
                 Thread thread=new Thread(ExecuteInForeground);
 
@@ -62,6 +63,20 @@ namespace SingletonPattern
             Singleton3 singleton3 =Singleton3.Instance();
             singleton3.GetInfo();
             Console.WriteLine(singleton3.GetHashCode());
+        }
+
+        private static void TestGenericSingleton()
+        {
+            Console.WriteLine("泛型单例模式：");
+
+            Singleton4 instance = GenericSingleton<Singleton4>.GetInstance();
+
+            instance.GetInfo();
+
+            var singleton4 = Singleton4.Instance;
+
+            singleton4.GetInfo();
+            Console.ReadLine();
         }
     }
 }

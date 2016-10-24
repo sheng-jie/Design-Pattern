@@ -8,7 +8,7 @@ namespace FactoryPattern
 
         public void GetInfo()
         {
-            Console.WriteLine($"I am {this.GetType().Name}.");
+            Console.WriteLine(string.Format("I am {0}.",this.GetType().Name));
         }
     }
 
