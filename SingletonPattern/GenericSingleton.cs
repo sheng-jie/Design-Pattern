@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace SingletonPattern
 {
+    /// <summary>
+    /// 泛型单例模式的实现
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public class GenericSingleton<T> where T : class//,new ()
     {
         private static T instance;
