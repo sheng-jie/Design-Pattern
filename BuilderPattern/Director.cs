@@ -69,7 +69,7 @@ namespace BuilderPattern
             hp.AssemblePart("键鼠");
         }
 
-        public override Computer GetComputer()
+        public Computer GetComputer()
         {
             return hp;
         }
@@ -97,7 +97,7 @@ namespace BuilderPattern
             dell.AssemblePart("键鼠");
         }
 
-        public override Computer GetComputer()
+        public Computer GetComputer()
         {
             return dell;
         }
