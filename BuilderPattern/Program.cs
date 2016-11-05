@@ -17,14 +17,14 @@ namespace BuilderPattern
             //组装一批惠普电脑
             director.Construct(hpBuilder);
             Computer hp =  hpBuilder.GetComputer();
-            hp.ShowProcess();
+            hp.ShowSteps();
 
             Console.ReadLine();
 
             //组装一批戴尔电脑
             director.Construct(dellBuilder);
             Computer dell = dellBuilder.GetComputer();
-            dell.ShowProcess();
+            dell.ShowSteps();
 
             Console.ReadLine();
         }

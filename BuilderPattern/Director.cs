@@ -13,38 +13,37 @@ namespace BuilderPattern
     {
         public void Construct(Builder builder)
         {
-            builder.BuildMainFramePart();
-            builder.BuildScreenPart();
-            builder.BuildInputPart();
+            builder.BuildComputer();
         }
     }
 
     /// <summary>
-    /// 建造者（模拟装机过程）
-    /// 也可通过接口实现
+    /// 建造者（模拟装机过程）,也可通过接口实现
+    /// Director不关心具体组装的细节，所以将具体的组装细节方法标记为protected
     /// </summary>
     public abstract class Builder
     {
         /// <summary>
         /// 组装主机
         /// </summary>
-        public abstract void BuildMainFramePart();
+        protected abstract void BuildMainFramePart();
 
         /// <summary>
         /// 组装显示器
         /// </summary>
-        public abstract void BuildScreenPart();
+        protected abstract void BuildScreenPart();
 
         /// <summary>
         /// 组装输入设备（键鼠）
         /// </summary>
-        public abstract void BuildInputPart();
+        protected abstract void BuildInputPart();
 
         /// <summary>
         /// 获取组装电脑
+        /// 由具体的组装类决定组装顺序
         /// </summary>
         /// <returns></returns>
-        public abstract Computer GetComputer();
+        public abstract Computer BuildComputer();
     }
 
     /// <summary>
@@ -54,23 +53,30 @@ namespace BuilderPattern
     {
         Computer hp = new Computer() { Band = "惠普" };
 
-        public override void BuildMainFramePart()
+        protected override void BuildMainFramePart()
         {
             hp.AssemblePart("主机");
         }
 
-        public override void BuildScreenPart()
+        protected override void BuildScreenPart()
         {
             hp.AssemblePart("显示器");
         }
 
-        public override void BuildInputPart()
+        protected override void BuildInputPart()
         {
             hp.AssemblePart("键鼠");
         }
 
-        public Computer GetComputer()
+        /// <summary>
+        /// 决定具体的组装步骤
+        /// </summary>
+        /// <returns></returns>
+        public override Computer BuildComputer()
         {
+            BuildMainFramePart();
+            BuildScreenPart();
+            BuildInputPart();
             return hp;
         }
     }
@@ -82,23 +88,26 @@ namespace BuilderPattern
     {
         Computer dell = new Computer() { Band = "戴尔" };
 
-        public override void BuildMainFramePart()
+        protected override void BuildMainFramePart()
         {
             dell.AssemblePart("主机");
         }
 
-        public override void BuildScreenPart()
+        protected override void BuildScreenPart()
         {
             dell.AssemblePart("显示器");
         }
 
-        public override void BuildInputPart()
+        protected override void BuildInputPart()
         {
             dell.AssemblePart("键鼠");
         }
 
-        public Computer GetComputer()
+        public override Computer BuildComputer()
         {
+            BuildInputPart();
+            BuildMainFramePart();
+            BuildScreenPart();
             return dell;
         }
     }
@@ -127,7 +136,7 @@ namespace BuilderPattern
             this.assemblyParts.Add(partName);
         }
 
-        public void ShowProcess()
+        public void ShowSteps()
         {
             Console.WriteLine("开始组装『{0}』电脑:", Band);
             foreach (var part in assemblyParts)
