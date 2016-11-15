@@ -10,7 +10,7 @@
 > 源码路径：[源代码](https://github.com/yanshengjie/design-pattern) ***C#***
 
 <blockquote>
-**目录**
+目录
 </blockquote>
 
 1. [想学设计模式，你得先会看类图，一张图读懂UML](http://www.jianshu.com/p/0cd7df8a7789)
