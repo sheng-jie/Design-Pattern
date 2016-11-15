@@ -6,9 +6,9 @@
 内容主要参考自《设计模式之禅》、《大话设计模式》两本书籍，以及相关网络博文！
 </blockquote>
 
-<blockquote>
-源码路径：[源代码](https://github.com/yanshengjie/design-pattern) ***C#***
-</blockquote>
+
+> 源码路径：[源代码](https://github.com/yanshengjie/design-pattern) ***C#***
+
 
 >**目录**
 
