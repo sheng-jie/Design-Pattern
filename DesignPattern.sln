@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediatorPattern", "Mediator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{D49AD28A-0DF4-4D25-8CB7-4F72371E311F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainofResponsibility", "ChainofResponsibility\ChainofResponsibility.csproj", "{E4271E2E-3478-432D-87A4-6542FD005DAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{D49AD28A-0DF4-4D25-8CB7-4F72371E311F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D49AD28A-0DF4-4D25-8CB7-4F72371E311F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D49AD28A-0DF4-4D25-8CB7-4F72371E311F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4271E2E-3478-432D-87A4-6542FD005DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4271E2E-3478-432D-87A4-6542FD005DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4271E2E-3478-432D-87A4-6542FD005DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4271E2E-3478-432D-87A4-6542FD005DAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
