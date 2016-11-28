@@ -7,8 +7,8 @@
     <ProjectGuid>{E4271E2E-3478-432D-87A4-6542FD005DAD}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ChainofResponsibility</RootNamespace>
-    <AssemblyName>ChainofResponsibility</AssemblyName>
+    <RootNamespace>ChainOfResponsibility</RootNamespace>
+    <AssemblyName>ChainOfResponsibility</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,7 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IBillOperation.cs" />
+    <Compile Include="Bill.cs" />
+    <Compile Include="BillHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
