@@ -1,5 +1,8 @@
 ﻿namespace FactoryPattern
 {
+    /// <summary>
+    /// 产品枚举
+    /// </summary>
     public enum ProductEnum
     {
         ConcreateProductA,
