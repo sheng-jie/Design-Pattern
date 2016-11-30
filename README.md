@@ -14,12 +14,25 @@
 </blockquote>
 
 1. [想学设计模式，你得先会看类图，一张图读懂UML](http://www.jianshu.com/p/0cd7df8a7789)
+
 2. [大致了解下都有哪些设计模式](http://www.jianshu.com/p/4a02646f7c9d)
+
 3. [我是独一无二的『单例模式』](http://www.jianshu.com/p/2054c44dcd5a)
+
 4. [创建相似对象，就交给『工厂模式』吧](http://www.jianshu.com/p/de190cd72fb6)
-5. [固定模板，不同算法，就用『模板方法模式』](http://www.jianshu.com/p/12b3d2a88bf3)
+
+5. [固定模板，不同算法，就用『模板方法模式』](http://www.jianshu.com/p/4c8d1a0a75e1)
+
 6. [关注产出，不关心细节，『建造者模式』](http://www.jianshu.com/p/f5a87d678b79)
+
 7. [重复构造，打出原形，『原型模式』](http://www.jianshu.com/p/ce7b981708b4)
+
 8. [间接访问，非『代理模式』莫属](http://www.jianshu.com/p/97575a7f8c5b)
+
 9. [系列对象，依赖交互，『中介者模式』来帮忙](http://www.jianshu.com/p/d37cd087a06f)
-10. [任务分发，只管下达『命令模式』即可](http://www.jianshu.com/p/e9144a2101db)
+
+10. [任务分发，只管下达『命令模式』即可](http://www.jianshu.com/p/e9144a2101db) 
+
+11. [流程业务，各司其职，『责任链模式』](http://www.jianshu.com/p/95908acb842a)
+
+12. [毛坯还是精装修，先看看样板房，『装饰模式』](http://www.jianshu.com/p/246041fc39a4)
