@@ -11,9 +11,9 @@ namespace BuilderPattern
     /// </summary>
     public class Director
     {
-        public void Construct(Builder builder)
+        public Computer Construct(Builder builder)
         {
-            builder.BuildComputer();
+           return builder.BuildComputer();
         }
     }
 

@@ -15,15 +15,13 @@ namespace BuilderPattern
             DellBulider dellBuilder =new DellBulider();
 
             //组装一批惠普电脑
-            director.Construct(hpBuilder);
-            Computer hp =  hpBuilder.GetComputer();
+            Computer hp =director.Construct(hpBuilder);
             hp.ShowSteps();
 
             Console.ReadLine();
 
             //组装一批戴尔电脑
-            director.Construct(dellBuilder);
-            Computer dell = dellBuilder.GetComputer();
+            Computer dell = director.Construct(dellBuilder);
             dell.ShowSteps();
 
             Console.ReadLine();
