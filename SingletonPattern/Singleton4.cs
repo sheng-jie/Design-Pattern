@@ -17,7 +17,7 @@ namespace SingletonPattern
         private Singleton4()
         {
 
-        }
+        } 
 
         /// <summary>
         /// 也可以通过暴露属性获取实例
