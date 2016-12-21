@@ -19,11 +19,11 @@
 
 3. [我是独一无二的『单例模式』](http://www.jianshu.com/p/2054c44dcd5a)
 
-4. [创建相似对象，就交给『工厂模式』吧](http://www.jianshu.com/p/de190cd72fb6)
+4. [创建相似对象，就交给『工厂模式』吧](http://www.jianshu.com/p/1275b99ca973)
 
 5. [固定模板，不同算法，就用『模板方法模式』](http://www.jianshu.com/p/4c8d1a0a75e1)
 
-6. [关注产出，不关心细节，『建造者模式』](http://www.jianshu.com/p/f5a87d678b79)
+6. [关注产出，不关心细节，『建造者模式』](http://www.jianshu.com/p/c5811ca1d208)
 
 7. [重复构造，打出原形，『原型模式』](http://www.jianshu.com/p/ce7b981708b4)
 
@@ -36,3 +36,7 @@
 11. [流程业务，各司其职，『责任链模式』](http://www.jianshu.com/p/95908acb842a)
 
 12. [毛坯还是精装修，先看看样板房，『装饰模式』](http://www.jianshu.com/p/246041fc39a4)
+
+13. [算法独立于场景而灵活变化，『策略模式』](http://www.jianshu.com/p/390fd50d02b8)
+
+14. [新旧对接，『适配器模式』](http://www.jianshu.com/p/5e5f5024c62e)
