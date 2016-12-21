@@ -43,6 +43,7 @@ namespace AdapterPattern
 
     /// <summary>
     /// 苹果充电线适配器
+    /// 类适配器模式
     /// </summary>
     public class USBlightingLineAdapter : USBLine, IChargingLine
     {
@@ -55,13 +56,20 @@ namespace AdapterPattern
 
     /// <summary>
     /// 小米5充电线适配器
+    /// 对象适配器模式
     /// </summary>
-    public class USBTypecLineAdapter: USBLine,IChargingLine
+    public class USBTypecLineAdapter: IChargingLine
     {
+        private readonly USBLine _usbLine;
+        public USBTypecLineAdapter(USBLine usbLine)
+        {
+            this._usbLine = usbLine;
+        }
+
         public void Charging()
         {
             Console.WriteLine("对USB-TypeC端口的数据线进行适配！");
-            base.Charge();
+            this._usbLine.Charge();
         }
     }
 }
