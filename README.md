@@ -40,3 +40,11 @@
 13. [算法独立于场景而灵活变化，『策略模式』](http://www.jianshu.com/p/390fd50d02b8)
 
 14. [新旧对接，『适配器模式』](http://www.jianshu.com/p/5e5f5024c62e)
+
+15. [玩转集合容器，『迭代器模式』](http://www.jianshu.com/p/ae229f72c522)
+
+16. [部分整体，树形结构，『组合模式』来帮忙](http://www.jianshu.com/p/9e49e5d702df)
+
+17. [『观察者模式』来钓鱼](http://www.jianshu.com/p/45675c73296d)
+
+![设计模式之禅](http://upload-images.jianshu.io/upload_images/2799767-4df489c0f630a241.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
