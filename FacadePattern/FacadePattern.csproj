@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountVerificationCenter.cs" />
+    <Compile Include="AccountSubsystem.cs" />
     <Compile Include="ATM.cs" />
-    <Compile Include="Bank.cs" />
+    <Compile Include="AtmFacade.cs" />
+    <Compile Include="BankSubsystem.cs" />
     <Compile Include="BankAccount.cs" />
-    <Compile Include="IBank.cs" />
+    <Compile Include="IBankSubsystem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
