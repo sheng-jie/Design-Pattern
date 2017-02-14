@@ -47,4 +47,6 @@
 
 17. [『观察者模式』来钓鱼](http://www.jianshu.com/p/45675c73296d)
 
+18. [ATM取款聊聊『门面模式』](http://www.jianshu.com/p/c89a922a60c0)
+
 ![设计模式之禅](http://upload-images.jianshu.io/upload_images/2799767-4df489c0f630a241.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
