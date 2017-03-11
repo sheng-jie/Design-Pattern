@@ -1,4 +1,4 @@
-# 『设计模式』之小试牛刀
+# 『设计模式』之小试牛刀（来了就给个Star吧！）
 <blockquote>
 为了更好的学习设计模式，以及督促自己完成设计模式的学习，现提笔为记。
 怎么的，每周至少也要学一个设计模式！！！
@@ -46,5 +46,7 @@
 16. [部分整体，树形结构，『组合模式』来帮忙](http://www.jianshu.com/p/9e49e5d702df)
 
 17. [『观察者模式』来钓鱼](http://www.jianshu.com/p/45675c73296d)
+
+18. [ATM取款聊聊『门面模式』](http://www.jianshu.com/p/c89a922a60c0)
 
 ![设计模式之禅](http://upload-images.jianshu.io/upload_images/2799767-4df489c0f630a241.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

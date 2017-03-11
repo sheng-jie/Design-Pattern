@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CA00E48A-FCA2-44F1-A7C3-DF89FD3802BE}</ProjectGuid>
+    <ProjectGuid>{04898517-CD60-419B-9C4D-2BE8A99C40FC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FacadePattern</RootNamespace>
-    <AssemblyName>FacadePattern</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>IteratorPattern</RootNamespace>
+    <AssemblyName>IteratorPattern</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
@@ -43,12 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccountSubsystem.cs" />
-    <Compile Include="ATM.cs" />
-    <Compile Include="AtmFacade.cs" />
-    <Compile Include="BankSubsystem.cs" />
-    <Compile Include="BankAccount.cs" />
-    <Compile Include="IBankSubsystem.cs" />
+    <Compile Include="Iterator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
