@@ -51,4 +51,6 @@
 
 19. [后悔药，『备忘录模式』](http://www.jianshu.com/p/6d46b5d3fdee)
 
+20. [这一次数据说了算，『访问者模式』](http://www.jianshu.com/p/3aa45b6be7ae)
+
 ![设计模式之禅](http://upload-images.jianshu.io/upload_images/2799767-4df489c0f630a241.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
