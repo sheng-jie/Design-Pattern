@@ -39,6 +39,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorPattern", "Iterator
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VisitorPattern", "VisitorPattern\VisitorPattern.csproj", "{02F820F2-CE4C-4E47-8CE8-4E7C0A234D42}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4BDF7BDF-B443-4CD7-8105-0164BC5D5F0C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatePattern", "StatePattern\StatePattern.csproj", "{7C82D171-CCD0-48B7-B91E-34F86918C401}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +124,10 @@ Global
 		{02F820F2-CE4C-4E47-8CE8-4E7C0A234D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02F820F2-CE4C-4E47-8CE8-4E7C0A234D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02F820F2-CE4C-4E47-8CE8-4E7C0A234D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C82D171-CCD0-48B7-B91E-34F86918C401}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C82D171-CCD0-48B7-B91E-34F86918C401}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C82D171-CCD0-48B7-B91E-34F86918C401}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C82D171-CCD0-48B7-B91E-34F86918C401}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
