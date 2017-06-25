@@ -55,4 +55,6 @@
 
 21. [自动驾驶谈谈『状态模式』](http://www.jianshu.com/p/42d4ca7316ad)
 
+22. [对象复用，『享元模式』](http://www.jianshu.com/p/3fb0b559602b)
+
 ![设计模式之禅](http://upload-images.jianshu.io/upload_images/2799767-4df489c0f630a241.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
