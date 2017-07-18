@@ -11,9 +11,11 @@ namespace BridgePattern
         static void Main(string[] args)
         {
             Project webProject = new WebProject("Web项目");
-            Manager manager = new ProjectManager(webProject);
+            Manager projectManager = new ProjectManager(webProject);
+            Manager productManager = new ProductManger(webProject);
 
-            manager.ManageProject();
+            projectManager.ManageProject();
+            productManager.ManageProject();
 
             Console.ReadLine();
         }

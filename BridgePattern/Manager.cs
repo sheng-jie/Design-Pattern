@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BridgePattern
+﻿namespace BridgePattern
 {
     public abstract class Manager
     {
@@ -11,26 +9,31 @@ namespace BridgePattern
             CurrentProject = currentProject;
         }
 
+        /// <summary>
+        /// 制定计划
+        /// </summary>
+        public abstract void SchedulePlan();
+
+        /// <summary>
+        /// 任务分配
+        /// </summary>
+        public abstract void AssignTasks();
+
+        /// <summary>
+        /// 进度把控
+        /// </summary>
+        public abstract void ControlProcess();
+
+
+        /// <summary>
+        /// 项目管理
+        /// </summary>
         public virtual void ManageProject()
         {
-            CurrentProject.MakePlan();
-            CurrentProject.ScheduleTask();
-            CurrentProject.ControlProcess();
-        }
-    }
-
-
-    public class ProjectManager : Manager
-    {
-        public ProjectManager(Project currentProject) : base(currentProject)
-        {
+            SchedulePlan();
+            AssignTasks();
+            ControlProcess();
         }
 
-        public override void ManageProject()
-        {
-            Console.WriteLine($"负责[{base.CurrentProject.ProjectName}]开发：");
-            base.ManageProject();
-            Console.WriteLine($"[{base.CurrentProject.ProjectName}] 开发完成。");
-        }
     }
 }

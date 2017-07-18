@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace BridgePattern
+﻿namespace BridgePattern
 {
     public abstract class Project
     {
@@ -11,33 +9,40 @@ namespace BridgePattern
             ProjectName = projectName;
         }
 
+        /// <summary>
+        /// 需求分析
+        /// </summary>
+        public abstract void AnalyzeRequirement();
+
+        /// <summary>
+        /// 产品设计
+        /// </summary>
+        public abstract void DesignProduct();
+
+        /// <summary>
+        /// 制定计划
+        /// </summary>
         public abstract void MakePlan();
 
+        /// <summary>
+        /// 任务分解
+        /// </summary>
         public abstract void ScheduleTask();
 
+        /// <summary>
+        /// 进度把控
+        /// </summary>
         public abstract void ControlProcess();
 
-    }
+        /// <summary>
+        /// 产品发布
+        /// </summary>
+        public abstract void ReleaseProduct();
 
-    public class WebProject : Project
-    {
-        public WebProject(string projectName) : base(projectName)
-        {
-        }
+        /// <summary>
+        /// 后期运维
+        /// </summary>
+        public abstract void MaintainProduct();
 
-        public override void MakePlan()
-        {
-            Console.WriteLine($"[{base.ProjectName}]：制定项目计划");
-        }
-
-        public override void ScheduleTask()
-        {
-            Console.WriteLine($"[{base.ProjectName}]：制作任务清单");
-        }
-
-        public override void ControlProcess()
-        {
-            Console.WriteLine($"[{base.ProjectName}]：把控项目进度");
-        }
     }
 }
