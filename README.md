@@ -1,4 +1,11 @@
+> **关注我的公众号【微服务知多少】，发现更多精彩！**
+>
+![](https://upload-images.jianshu.io/upload_images/2799767-efe4ebcd991746f2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+-------
+
 # 『设计模式』之小试牛刀（来了就给个Star吧！）
+
 <blockquote>
 为了更好的学习设计模式，以及督促自己完成设计模式的学习，现提笔为记。
 怎么的，每周至少也要学一个设计模式！！！
