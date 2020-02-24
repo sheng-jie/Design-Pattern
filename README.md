@@ -34,7 +34,7 @@
 
 7. [重复构造，打出原形，『原型模式』](http://www.jianshu.com/p/ce7b981708b4)
 
-8. [间接访问，非『代理模式』莫属](http://www.jianshu.com/p/97575a7f8c5b)
+8. [间接访问，非『代理模式』莫属](https://www.cnblogs.com/sheng-jie/p/6638690.html)
 
 9. [系列对象，依赖交互，『中介者模式』来帮忙](http://www.jianshu.com/p/d37cd087a06f)
 
