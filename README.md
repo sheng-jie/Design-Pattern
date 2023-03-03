@@ -1,8 +1,5 @@
-> **关注我的公众号【微服务知多少】，发现更多精彩！**
->
-![](https://upload-images.jianshu.io/upload_images/2799767-efe4ebcd991746f2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
--------
+# DEMO 版本已更新至.NET 6 !!!
 
 # 『设计模式』之小试牛刀（来了就给个Star吧！）
 
